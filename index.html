@@ -10,7 +10,7 @@
     <title>Document</title>
 </head>
 <body>
-    <main>
+    <main id="container">
         <button id="btn">
 
             ADD CARDS
@@ -117,7 +117,7 @@
           const  hero = document.getElementById("colorpad");
           const heroCopy = hero.cloneNode(true);
           heroCopy.removeAttribute("id");
-          heroCopy.setAttribute("id",`e${ incremet++ }`);
+          heroCopy.setAttribute("id",`e + ${ incremet++ }`);
   
           $("#container").appendChild(heroCopy);
           console.log(heroCopy);
