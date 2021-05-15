@@ -11,7 +11,7 @@
 </head>
 <body>
     <main>
-        <div class="card">
+        <div class="card" id="colorpad">
             <div class="content">
                 <div class="elipse subcar">
                     <p class="color-font">1</p>
@@ -39,7 +39,7 @@
                 </div>
             </div>
         </div>
-        <div class="card">
+        <!-- <div class="card">
             <div class="content" style="background: #9B51E0;">
                 <div class="elipse subcar">
                     <p class="color-font">1</p>
@@ -94,8 +94,34 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         
 </body>
+<script type="text/javascript">
+
+    /*const  hero = document.getElementById("colorpad");
+    console.log(hero);*/
+  
+  
+    let incremet = 0;
+    
+  
+    $("#btn").addEventListener("click",function(){
+          const  hero = document.getElementById("colorpad");
+          const heroCopy = hero.cloneNode(true);
+          heroCopy.removeAttribute("id");
+          heroCopy.setAttribute("id",`e${ incremet++ }`);
+  
+          $("#container").appendChild(heroCopy);
+          console.log(heroCopy);
+    })
+  
+    
+  
+  
+    function $(selector){
+      return document.querySelector(selector);
+    }
+</script>
 </html>
