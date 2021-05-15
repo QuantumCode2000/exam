@@ -1,0 +1,158 @@
+:root{
+
+    --color-card-primary : #FFFFFF;
+
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,main{
+    height:100vh;
+    
+    background-color: #E5E5E5;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+div{
+
+}
+
+.card{
+    background: var(--color-card-primary);
+    width: 364px;
+    height: 162px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+}
+
+
+.content{
+    background: #EB5757;
+    position: static;
+    border-start-end-radius: 10px;
+    border-start-start-radius: 10px;
+    width: 364px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.content2{
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.elipse{
+    position: relative;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    left: 8px;
+    top: 20px;
+    border: 1px solid #FFFFFF;
+    
+}
+
+.color-font{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color:#FFFFFF;
+  
+}
+
+.color-font2{
+
+    font-family: 'Lato', sans-serif;
+    line-height: 19px;
+    color:#2F2F2F;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+  
+}
+.subcar{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 21px;
+    position: static;
+    width: 321px;
+    height: 19px;
+    left: 21px;
+    top: 10px;
+    margin-top:20px;
+}
+.font-small{
+    position: relative;
+    width: 76px;
+    height: 16px;
+    left: 19px;
+    top:25px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    /* Light Text */
+
+    color: #888888;
+}
+.date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.dates{
+    position: relative;
+    width: 58px;
+    height: 16px;
+    top: 25px;
+}
+
+
+
+
